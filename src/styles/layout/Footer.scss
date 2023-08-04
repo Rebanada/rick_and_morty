@@ -1,0 +1,11 @@
+@import '../core/variables.scss';
+.footer {
+  background-color: $secundary-color;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.footer__text {
+  color: $primary-color;
+  font-family: $primary-text;
+}

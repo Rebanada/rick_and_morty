@@ -1,0 +1,36 @@
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  gap: 45px;
+}
+
+@import '../core/variables.scss';
+.img_card {
+  border: 5px solid $primary-color;
+  border-radius: 5%;
+}
+.element_card {
+  border: 2px solid $primary-color;
+
+  padding: 10px;
+  &__li {
+    color: $primary-color;
+  }
+}
+
+.main_card {
+  background-color: $secundary-color;
+  height: 100vh;
+}
+.return {
+  font-size: x-large;
+  color: $primary-color;
+  display: flex;
+  justify-content: center;
+}
+
+.return:hover {
+  color: $blood;
+}

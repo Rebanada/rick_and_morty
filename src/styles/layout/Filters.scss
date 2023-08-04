@@ -1,0 +1,31 @@
+@import '../core/variables.scss';
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-family: $primary-text;
+}
+.value {
+  color: $blood;
+  font-family: $primary-text;
+}
+.label {
+  color: $light;
+  padding: 5px;
+  font-family: $primary-text;
+}
+.input {
+  padding: 5px;
+  font-family: $primary-text;
+}
+.main {
+  background-color: $secundary-color;
+}
+
+.not_found{
+  text-align: center;
+  font-size: x-large;
+  font-family: $primary-text;
+  color: white;
+}
